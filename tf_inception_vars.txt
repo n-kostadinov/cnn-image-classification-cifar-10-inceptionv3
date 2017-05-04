@@ -1,0 +1,388 @@
+Tensor("InceptionV3/Conv2d_1a_3x3/weights/read:0", shape=(3, 3, 3, 32), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_1a_3x3/BatchNorm/beta/read:0", shape=(32,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_1a_3x3/BatchNorm/moving_mean/read:0", shape=(32,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_1a_3x3/BatchNorm/moving_variance/read:0", shape=(32,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_2a_3x3/weights/read:0", shape=(3, 3, 32, 32), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_2a_3x3/BatchNorm/beta/read:0", shape=(32,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_2a_3x3/BatchNorm/moving_mean/read:0", shape=(32,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_2a_3x3/BatchNorm/moving_variance/read:0", shape=(32,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_2b_3x3/weights/read:0", shape=(3, 3, 32, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_2b_3x3/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_2b_3x3/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_2b_3x3/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_3b_1x1/weights/read:0", shape=(1, 1, 64, 80), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_3b_1x1/BatchNorm/beta/read:0", shape=(80,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_3b_1x1/BatchNorm/moving_mean/read:0", shape=(80,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_3b_1x1/BatchNorm/moving_variance/read:0", shape=(80,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_4a_3x3/weights/read:0", shape=(3, 3, 80, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_4a_3x3/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_4a_3x3/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Conv2d_4a_3x3/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_0/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 192, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_0/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_1/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 192, 48), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_1/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(48,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(48,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(48,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_1/Conv2d_0b_5x5/weights/read:0", shape=(5, 5, 48, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_1/Conv2d_0b_5x5/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_1/Conv2d_0b_5x5/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_1/Conv2d_0b_5x5/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 192, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0b_3x3/weights/read:0", shape=(3, 3, 64, 96), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0b_3x3/BatchNorm/beta/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0b_3x3/BatchNorm/moving_mean/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0b_3x3/BatchNorm/moving_variance/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0c_3x3/weights/read:0", shape=(3, 3, 96, 96), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0c_3x3/BatchNorm/beta/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0c_3x3/BatchNorm/moving_mean/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_2/Conv2d_0c_3x3/BatchNorm/moving_variance/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_3/Conv2d_0b_1x1/weights/read:0", shape=(1, 1, 192, 32), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_3/Conv2d_0b_1x1/BatchNorm/beta/read:0", shape=(32,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_mean/read:0", shape=(32,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5b/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_variance/read:0", shape=(32,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_0/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 256, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_0/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_1/Conv2d_0b_1x1/weights/read:0", shape=(1, 1, 256, 48), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_1/Conv2d_0b_1x1/BatchNorm/beta/read:0", shape=(48,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_1/Conv2d_0b_1x1/BatchNorm/moving_mean/read:0", shape=(48,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_1/Conv2d_0b_1x1/BatchNorm/moving_variance/read:0", shape=(48,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_1/Conv_1_0c_5x5/weights/read:0", shape=(5, 5, 48, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_1/Conv_1_0c_5x5/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_1/Conv_1_0c_5x5/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_1/Conv_1_0c_5x5/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 256, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0b_3x3/weights/read:0", shape=(3, 3, 64, 96), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0b_3x3/BatchNorm/beta/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0b_3x3/BatchNorm/moving_mean/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0b_3x3/BatchNorm/moving_variance/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0c_3x3/weights/read:0", shape=(3, 3, 96, 96), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0c_3x3/BatchNorm/beta/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0c_3x3/BatchNorm/moving_mean/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_2/Conv2d_0c_3x3/BatchNorm/moving_variance/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_3/Conv2d_0b_1x1/weights/read:0", shape=(1, 1, 256, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_3/Conv2d_0b_1x1/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5c/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_0/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 288, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_0/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_1/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 288, 48), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_1/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(48,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(48,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(48,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_1/Conv2d_0b_5x5/weights/read:0", shape=(5, 5, 48, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_1/Conv2d_0b_5x5/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_1/Conv2d_0b_5x5/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_1/Conv2d_0b_5x5/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 288, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0b_3x3/weights/read:0", shape=(3, 3, 64, 96), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0b_3x3/BatchNorm/beta/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0b_3x3/BatchNorm/moving_mean/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0b_3x3/BatchNorm/moving_variance/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0c_3x3/weights/read:0", shape=(3, 3, 96, 96), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0c_3x3/BatchNorm/beta/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0c_3x3/BatchNorm/moving_mean/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_2/Conv2d_0c_3x3/BatchNorm/moving_variance/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_3/Conv2d_0b_1x1/weights/read:0", shape=(1, 1, 288, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_3/Conv2d_0b_1x1/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_5d/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_0/Conv2d_1a_1x1/weights/read:0", shape=(3, 3, 288, 384), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_0/Conv2d_1a_1x1/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_0/Conv2d_1a_1x1/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_0/Conv2d_1a_1x1/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 288, 64), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(64,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_0b_3x3/weights/read:0", shape=(3, 3, 64, 96), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_0b_3x3/BatchNorm/beta/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_0b_3x3/BatchNorm/moving_mean/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_0b_3x3/BatchNorm/moving_variance/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_1a_1x1/weights/read:0", shape=(3, 3, 96, 96), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_1a_1x1/BatchNorm/beta/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_1a_1x1/BatchNorm/moving_mean/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6a/Branch_1/Conv2d_1a_1x1/BatchNorm/moving_variance/read:0", shape=(96,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_0/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_0/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 128), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0b_1x7/weights/read:0", shape=(1, 7, 128, 128), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0b_1x7/BatchNorm/beta/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0b_1x7/BatchNorm/moving_mean/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0b_1x7/BatchNorm/moving_variance/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0c_7x1/weights/read:0", shape=(7, 1, 128, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0c_7x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0c_7x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_1/Conv2d_0c_7x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 128), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0b_7x1/weights/read:0", shape=(7, 1, 128, 128), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0b_7x1/BatchNorm/beta/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0b_7x1/BatchNorm/moving_mean/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0b_7x1/BatchNorm/moving_variance/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0c_1x7/weights/read:0", shape=(1, 7, 128, 128), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0c_1x7/BatchNorm/beta/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0c_1x7/BatchNorm/moving_mean/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0c_1x7/BatchNorm/moving_variance/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0d_7x1/weights/read:0", shape=(7, 1, 128, 128), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0d_7x1/BatchNorm/beta/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0d_7x1/BatchNorm/moving_mean/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0d_7x1/BatchNorm/moving_variance/read:0", shape=(128,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0e_1x7/weights/read:0", shape=(1, 7, 128, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0e_1x7/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0e_1x7/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_2/Conv2d_0e_1x7/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_3/Conv2d_0b_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_3/Conv2d_0b_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6b/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_0/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_0/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0b_1x7/weights/read:0", shape=(1, 7, 160, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0b_1x7/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0b_1x7/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0b_1x7/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0c_7x1/weights/read:0", shape=(7, 1, 160, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0c_7x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0c_7x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_1/Conv2d_0c_7x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0b_7x1/weights/read:0", shape=(7, 1, 160, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0b_7x1/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0b_7x1/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0b_7x1/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0c_1x7/weights/read:0", shape=(1, 7, 160, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0c_1x7/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0c_1x7/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0c_1x7/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0d_7x1/weights/read:0", shape=(7, 1, 160, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0d_7x1/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0d_7x1/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0d_7x1/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0e_1x7/weights/read:0", shape=(1, 7, 160, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0e_1x7/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0e_1x7/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_2/Conv2d_0e_1x7/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_3/Conv2d_0b_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_3/Conv2d_0b_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6c/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_0/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_0/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0b_1x7/weights/read:0", shape=(1, 7, 160, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0b_1x7/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0b_1x7/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0b_1x7/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0c_7x1/weights/read:0", shape=(7, 1, 160, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0c_7x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0c_7x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_1/Conv2d_0c_7x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0b_7x1/weights/read:0", shape=(7, 1, 160, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0b_7x1/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0b_7x1/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0b_7x1/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0c_1x7/weights/read:0", shape=(1, 7, 160, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0c_1x7/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0c_1x7/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0c_1x7/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0d_7x1/weights/read:0", shape=(7, 1, 160, 160), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0d_7x1/BatchNorm/beta/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0d_7x1/BatchNorm/moving_mean/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0d_7x1/BatchNorm/moving_variance/read:0", shape=(160,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0e_1x7/weights/read:0", shape=(1, 7, 160, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0e_1x7/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0e_1x7/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_2/Conv2d_0e_1x7/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_3/Conv2d_0b_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_3/Conv2d_0b_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6d/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_0/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_0/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0b_1x7/weights/read:0", shape=(1, 7, 192, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0b_1x7/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0b_1x7/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0b_1x7/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0c_7x1/weights/read:0", shape=(7, 1, 192, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0c_7x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0c_7x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_1/Conv2d_0c_7x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0b_7x1/weights/read:0", shape=(7, 1, 192, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0b_7x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0b_7x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0b_7x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0c_1x7/weights/read:0", shape=(1, 7, 192, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0c_1x7/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0c_1x7/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0c_1x7/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0d_7x1/weights/read:0", shape=(7, 1, 192, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0d_7x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0d_7x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0d_7x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0e_1x7/weights/read:0", shape=(1, 7, 192, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0e_1x7/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0e_1x7/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_2/Conv2d_0e_1x7/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_3/Conv2d_0b_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_3/Conv2d_0b_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_6e/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::RESTORED FROM CHECKPOINT
+Tensor("InceptionV3/Mixed_7a/Branch_0/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_0/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_0/Conv2d_1a_3x3/weights/read:0", shape=(3, 3, 192, 320), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_0/Conv2d_1a_3x3/BatchNorm/beta/read:0", shape=(320,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_0/Conv2d_1a_3x3/BatchNorm/moving_mean/read:0", shape=(320,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_0/Conv2d_1a_3x3/BatchNorm/moving_variance/read:0", shape=(320,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 768, 192), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0b_1x7/weights/read:0", shape=(1, 7, 192, 192), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0b_1x7/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0b_1x7/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0b_1x7/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0c_7x1/weights/read:0", shape=(7, 1, 192, 192), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0c_7x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0c_7x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_0c_7x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_1a_3x3/weights/read:0", shape=(3, 3, 192, 192), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_1a_3x3/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_1a_3x3/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7a/Branch_1/Conv2d_1a_3x3/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_0/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 1280, 320), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_0/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(320,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(320,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(320,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 1280, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0b_1x3/weights/read:0", shape=(1, 3, 384, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0b_1x3/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0b_1x3/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0b_1x3/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0b_3x1/weights/read:0", shape=(3, 1, 384, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0b_3x1/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0b_3x1/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_1/Conv2d_0b_3x1/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 1280, 448), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(448,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(448,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(448,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0b_3x3/weights/read:0", shape=(3, 3, 448, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0b_3x3/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0b_3x3/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0b_3x3/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0c_1x3/weights/read:0", shape=(1, 3, 384, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0c_1x3/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0c_1x3/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0c_1x3/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0d_3x1/weights/read:0", shape=(3, 1, 384, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0d_3x1/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0d_3x1/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_2/Conv2d_0d_3x1/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_3/Conv2d_0b_1x1/weights/read:0", shape=(1, 1, 1280, 192), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_3/Conv2d_0b_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7b/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_0/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 2048, 320), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_0/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(320,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(320,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_0/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(320,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 2048, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0b_1x3/weights/read:0", shape=(1, 3, 384, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0b_1x3/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0b_1x3/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0b_1x3/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0c_3x1/weights/read:0", shape=(3, 1, 384, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0c_3x1/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0c_3x1/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_1/Conv2d_0c_3x1/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0a_1x1/weights/read:0", shape=(1, 1, 2048, 448), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0a_1x1/BatchNorm/beta/read:0", shape=(448,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_mean/read:0", shape=(448,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0a_1x1/BatchNorm/moving_variance/read:0", shape=(448,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0b_3x3/weights/read:0", shape=(3, 3, 448, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0b_3x3/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0b_3x3/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0b_3x3/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0c_1x3/weights/read:0", shape=(1, 3, 384, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0c_1x3/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0c_1x3/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0c_1x3/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0d_3x1/weights/read:0", shape=(3, 1, 384, 384), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0d_3x1/BatchNorm/beta/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0d_3x1/BatchNorm/moving_mean/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_2/Conv2d_0d_3x1/BatchNorm/moving_variance/read:0", shape=(384,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_3/Conv2d_0b_1x1/weights/read:0", shape=(1, 1, 2048, 192), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_3/Conv2d_0b_1x1/BatchNorm/beta/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_mean/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Mixed_7c/Branch_3/Conv2d_0b_1x1/BatchNorm/moving_variance/read:0", shape=(192,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/AuxLogits/Conv2d_1b_1x1/weights/read:0", shape=(1, 1, 768, 128), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/AuxLogits/Conv2d_1b_1x1/BatchNorm/beta/read:0", shape=(128,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/AuxLogits/Conv2d_1b_1x1/BatchNorm/moving_mean/read:0", shape=(128,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/AuxLogits/Conv2d_1b_1x1/BatchNorm/moving_variance/read:0", shape=(128,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/AuxLogits/Conv2d_2a_5x5/weights/read:0", shape=(5, 5, 128, 768), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/AuxLogits/Conv2d_2a_5x5/BatchNorm/beta/read:0", shape=(768,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/AuxLogits/Conv2d_2a_5x5/BatchNorm/moving_mean/read:0", shape=(768,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/AuxLogits/Conv2d_2a_5x5/BatchNorm/moving_variance/read:0", shape=(768,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/AuxLogits/Conv2d_2b_1x1/weights/read:0", shape=(1, 1, 768, 10), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/AuxLogits/Conv2d_2b_1x1/biases/read:0", shape=(10,), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Logits/Conv2d_1c_1x1/weights/read:0", shape=(1, 1, 2048, 10), dtype=float32) ::SELECTED FOR RETRAINING
+Tensor("InceptionV3/Logits/Conv2d_1c_1x1/biases/read:0", shape=(10,), dtype=float32) ::SELECTED FOR RETRAINING
